@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="calendario">
+      <div class="cabecera">
+        <img
+          class="icon"
+          id="izquierda"
+          src="./img/espalda.svg"
+          alt="flecha izquierda"
+        />
+
+        <p class="mes_cabecera" id="mes"></p>
+        <img
+          class="icon"
+          id="derecha"
+          src="./img/cheuron.svg"
+          alt="flecha derecha"
+        />
+      </div>
+      <ul class="semanas">
+        <li class="nombre_semanas">L</li>
+        <li class="nombre_semanas">M</li>
+        <li class="nombre_semanas">X</li>
+        <li class="nombre_semanas">J</li>
+        <li class="nombre_semanas">V</li>
+        <li class="nombre_semanas">S</li>
+        <li class="nombre_semanas">D</li>
+      </ul>
+      <ul class="principal" id="principal"></ul>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

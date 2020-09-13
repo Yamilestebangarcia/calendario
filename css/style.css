@@ -1,0 +1,64 @@
+.calendario {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #f2f6f5;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    fill: #9faab7;
+}
+
+.mes_cabecera {
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.semanas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    border-bottom: solid 1px#f2f6f5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nombre_semanas {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    color: #9faab7
+}
+
+.principal {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.dia, .diacreado {
+    text-align: center;
+    list-style: none;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.circulo {
+    background-color: #86d8c9;
+    border-radius: 50%;
+}
